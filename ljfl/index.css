@@ -1,0 +1,30 @@
+body a{
+    color: #136ec2;
+}
+body {
+    width: 800px;
+    margin: 0 auto;
+}
+ h3, h4, p {
+    margin: 0 auto;
+    margin-top: 10px;
+}
+body p {
+    width: 800px;
+    margin-top: 10px;
+    
+}
+#cause .t1{
+    position:relative;
+    left: 300px;
+    margin: 10px 0 10px 0;
+}
+#classify .t2{
+    float: right;
+}
+#kind .t3{
+    float: right;
+}
+#kind .t4{
+    float: right ;
+}
