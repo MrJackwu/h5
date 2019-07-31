@@ -1,0 +1,35 @@
+.wrap{
+    width: 100%;
+    background: #fff;
+}
+.wrap .wrap_top{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.wrap .left ul li{
+    float: left;
+    height: 40px;
+    line-height: 40px;
+}
+.wrap .left ul li a {
+    padding:0 0  0 15px;
+}
+.wrap .left ul li a:hover{
+    color: red;
+}
+.wrap .right ul{
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 300px;
+}
+.wrap .right ul li{
+   float: left;
+}
+.wrap .right ul li a{
+    padding: 0 0 0 15px;
+}
+.wrap .right ul li a:hover{
+    color: red;
+}
