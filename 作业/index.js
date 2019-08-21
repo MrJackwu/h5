@@ -88,23 +88,24 @@
             // }
             //第四题
             var a = parseInt(prompt("请输入工作时长"));
+            var b = parseInt(prompt("请输入你的月薪"));
             if (a == 0) {
-                if (a > 8000) {
+                if (b > 8000) {
                     xinshui = 1.2;
                 }else{
                     xinshui = 1;
                 }
             }else if (a == 1) {
-                if (a > 10000) {
+                if (b > 10000) {
                     xinshui= 1.7;
                 }else{
                     xinshui = 1.5;
                 }
             }else if (a == 2) {
-                    if (a > 12000) {
+                    if (b > 12000) {
                         xinshui = 3.2;
                     }else{
                         xinshui = 3;
                     }
                 }
-            alert(a * xinshui);
+            alert(xinshui*b);
